@@ -1,3 +1,4 @@
+<img width="828" height="534" alt="Capture" src="https://github.com/user-attachments/assets/d80a5135-2463-400c-a0b7-85ec5adef937" />
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
