@@ -21,7 +21,7 @@ namespace Trining
             Employees.Rows.Add(2, "Noor Jaber", "Iraq", 1000000, DateTime.Now);
             Employees.Rows.Add(3, "Hider Sadee", "Canada", 150000, DateTime.Now);
             Employees.Rows.Add(4, "Ahmed Safi", "China", 0.00, DateTime.Now);
-            Employees.Rows.Add(4, "Fadi JAmeel", "Egypt", 800, DateTime.Now);
+            Employees.Rows.Add(5, "Fadi JAmeel", "Egypt", 800, DateTime.Now);
 
 
             int EmployeeCount = 0;
