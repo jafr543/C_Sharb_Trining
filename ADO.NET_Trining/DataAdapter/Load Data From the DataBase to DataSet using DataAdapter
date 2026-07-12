@@ -44,13 +44,16 @@ namespace Trining
             ///
 
             // Update the data source with the changes made to the DataSet
+
+SqlCommandBuilder builder = new SqlCommandBuilder(dataAdapter);
+
             connection.Open();
 
             // Set the UpdateCommand of the DataAdapter to the connection
             dataAdapter.UpdateCommand.Connection = connection;
 
-            //// Update the data source with the changes
-            dataAdapter.Update(dataSet, "Employees");
+            //// Update the data source with the changes 
+           dataAdapter.Update(dataSet, "Employees");
 
             connection.Close();
 
