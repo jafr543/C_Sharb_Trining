@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+class Program
+{
+    static void Main()
+    {
+        // Creating and populating a HashSet of integers
+        HashSet<int> set1 = new HashSet<int> { 1, 2, 3 };
+        HashSet<int> set2 = new HashSet<int> { 1, 2, 3 };
+        HashSet<int> set3 = new HashSet<int> { 3, 4, 5 };
+
+
+        Console.WriteLine("set1 is a subset of set2: " + set1.IsSubsetOf(set2));
+        Console.WriteLine("set2 is a subset of set3: " + set2.IsSubsetOf(set3));
+
+        // Waiting for a key press
+        Console.ReadKey();
+    }
+}
